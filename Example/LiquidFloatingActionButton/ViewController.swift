@@ -57,7 +57,7 @@ class ViewController: UIViewController, LiquidFloatingActionButtonDataSource, Li
     }
     
     func liquidFloatingActionButton(liquidFloatingActionButton: LiquidFloatingActionButton, didSelectItemAtIndex index: Int) {
-        print("did Tapped! \(index)")
+        println("did Tapped! \(index)")
         liquidFloatingActionButton.close()
     }
 
